@@ -1,0 +1,5 @@
+var myFolder = "../QuickQuote/AppsReceivedBack/"
+var myConvert = app.trustedFunction( function(oDoc) {
+	app.beginPriv();
+	oDoc.exportAsFDF({cPath: "../QuickQuote/MasterFiles/ConvertedApps/" + oDoc.documentFileName.replace(/\.pdf$/i, ".fdf")}); app.endPriv();
+});

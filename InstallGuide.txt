@@ -1,0 +1,35 @@
+QuickQuote Install Guide
+-------------------
+
+### Automatic Installation:
+
+*Read all instructions before starting installation*
+
+- Right click on "install_trusted_functions.bat
+
+- Click "Run as adminastrator", and answer yes to the prompt
+
+- If you are warned that the file might be dangerous click "more info" & "run anyway" 
+
+- To verify installation check "C:\Program Files (x86)\Adobe\Acrobat 9.0\Acrobat\Javascripts"
+
+- There should be 20 files total
+
+
+### Manual Installation:
+
+- Open "TrustedFunction" folder. 
+
+- Copy contents of "TrustedFunction" folder.
+
+- Navigate to Adobe Acrobat directory in program files (varies)
+- Find the "Javascripts" folder.
+
+  Usually:   "C:\Program Files (x86)\Adobe\Acrobat 9.0\Acrobat\Javascripts"
+
+- Copy contents of "TrustedFunction" folder to "Javascripts" folder in Adobe directory.
+
+
+
+
+                                                        

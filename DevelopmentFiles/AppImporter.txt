@@ -1,0 +1,9 @@
+var importAPPS = app.trustedFunction( function(oDoc) {
+	app.beginPriv();
+	oDoc.insertPages({nPage:oDoc.numPages-1});
+	oDoc.deletePages({nStart:oDoc.numPages-1});
+        app.endPriv();
+});
+
+
+
